@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+/* colour variables */
+:root {
+    --White: hsl(0, 0%, 100%);
+--LightGray: hsl(212, 45%, 89%);
+--GrayishBlue: hsl(220, 15%, 55%);
+--DarkBlue: hsl(218, 44%, 22%);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* The box-sizing property allows us to include the padding and border in an element's total width and height. */
+
+}
+body{
+    background-color: var(--LightGray);
+    font-family: 'Outfit', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 1px);
+    font-size: 15px;
+    margin: 1.25rem;
+}
+.container {
+    background-color: var(--White);
+    display: block;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.05);
+    padding: 1.2rem;
+    text-align: center;
+    width: 250px;
+    margin: 0 auto;
+    border-radius: 0.6rem;
+
+}
+.container img {
+    border-radius: 0.6rem;
+    max-width: 100%;
+    margin-bottom: 1rem;
+}
+
+p{
+    padding-top: 1rem;
+    max-width: 100%;
+    color: var(--GrayishBlue);
+    margin-bottom: 0.7rem;
+    margin: 10 10;
+}
+
+.container h1{
+    color: var(--DarkBlue);
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+.attribution{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
