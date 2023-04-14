@@ -3,7 +3,9 @@
 ![](./images/Screenshot%20(246).png)
 
 This is a solution to the [QR code component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-This is a solution to the [here](https://rudratalur-qr-code.netlify.app/).
+
+
+You can check the site hosted [here](https://rudratalur-qr-code.netlify.app/).
 
 
 ## Table of contents
